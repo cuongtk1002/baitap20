@@ -1,0 +1,212 @@
+.container {
+    width: 100%;
+}
+
+/* PAGE-1 */
+.page-1 {
+    position: relative;
+    width: 100%;
+    min-height: 900px;
+    background: #010001;
+}
+
+.page-1 > img {
+    display:inline-block;
+    width: 154.53px;
+    height: 59.98px;
+    padding: 30px 0px 0px 50px;
+}
+
+.page-1-right {
+    position: absolute;
+    right: 50px;
+    top: 30px;
+}
+
+.page-1-right > ul {
+    display: inline-block;
+}
+
+.page-1-right > ul > li {
+    display: inline-block;
+    color: #FFFFFF;
+    list-style-type: none;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.page-1-right > button {
+    display: inline-block;
+    padding: 16px 40px;
+    color: #FFFFFF;
+    font: 16px 'Poppins', sans-serif;
+    border-radius: 500px;
+    border:rgb(117, 117, 117);
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: #FD4766;
+}
+
+.page-1-center {
+    position: absolute;
+    margin-top: 100px;
+    font-size: 100px;
+    line-height: 112px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 900;
+    text-align: center;
+    display: inline-block;
+    background: linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%, var(--color-primary) 79.69%);
+    --webkit-background-clip: text;
+    --webkit-text-fill-color: transparent;
+    padding-top: 100px;
+    color: #FFFFFF;
+}
+
+.page-1-bottom {
+    display: inline-block;
+    position: absolute;
+    padding-top: 585px;
+}
+
+.awarded-design {
+    display: inline-block;
+    text-align: center;
+    padding: 0px 25px;
+}
+
+.awarded-design > svg {
+    font-size: 60px;
+    stroke-width: 1;
+    color: #fd4766;
+}
+
+.awarded-design > h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.4074;
+    -webkit-font-smoothing: antialiased;
+    color: #FFFFFF;
+}
+
+.awarded-design > h3 > p {
+    color: #757575;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+
+.design-creative {
+    display: inline-block;
+    text-align: center;
+    padding: 0px 25px;
+}
+
+.design-creative > svg {
+    font-size: 60px;
+    stroke-width: 1;
+    color: #fd4766; 
+}
+
+.design-creative > h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.4074;
+    -webkit-font-smoothing: antialiased;
+    color: #FFFFFF;
+}
+
+.design-creative > h3 > p {
+    color: #757575;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+
+.app-development {
+    display: inline-block;
+    text-align: center;
+    padding: 0px 25px;
+}
+
+.app-development > svg {
+    font-size: 60px;
+    stroke-width: 1;
+    color: #fd4766; 
+}
+
+.app-development > h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.4074;
+    --webkit-font-smoothing: antialiased;
+    color:#FFFFFF;
+}
+
+.app-development > h3 > p {
+    color: #757575;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+/* PAGE-1 */
+
+/* PAGE-2 */
+.page-2 {
+    padding: 120px 0px;
+}
+
+.img {
+    background-image: url("./img/img-page2.png");
+    display: inline-block;
+    width: 483.33px;
+    height: 595.47px;
+    margin-left: 100px;
+}
+
+.right-content {
+    display: inline-block;
+    padding: 0px 50px;
+}
+
+.icon {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border:#FFFFFF;
+    background: #FD4766;
+    color: #FFFFFF;
+    font-size: 27px;
+    text-align: center;
+    line-height: 0px;
+    stroke-width: 1;
+}
+
+.right-content > h3 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin: 35px 0px;
+}
+
+.right-content > p {
+    color: #757575;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Poppins',sans-serif;
+    margin: 0px 0px 30px 0px;
+}
+
+.right-content {
+    font-size: 14px;
+    font-weight: 600;
+}
